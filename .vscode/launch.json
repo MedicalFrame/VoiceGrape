@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Streamlit (VoiceGrape)",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "voicegrape.py",
+                "--server.port",
+                "8501",
+                "--server.address",
+                "localhost",
+                "--server.headless",
+                "false"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true,
+            "serverReadyAction": {
+                "pattern": "Local URL: (http://localhost:8501.*)",
+                "action": "openExternally"
+            }
+        }
+    ]
+}

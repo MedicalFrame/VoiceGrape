@@ -1,0 +1,16 @@
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# Streamlit 보안 설정 (절대 커밋 금지)
+.streamlit/secrets.toml
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
