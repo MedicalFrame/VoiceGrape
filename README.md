@@ -57,6 +57,3 @@ streamlit run voicegrape.py
 
 ## 개발 환경 (VS Code)
 `.vscode/launch.json` 설정이 포함되어 있어, VS Code에서 `F5` 키를 눌러 바로 디버깅 모드로 실행할 수 있습니다.
-
----
-© 2026 Saerom. Powered by Parselmouth & Streamlit.
