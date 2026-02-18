@@ -15,7 +15,7 @@ Python 3.9 이상의 환경이 권장됩니다.
 
 ```bash
 # 저장소 클론
-git clone https://github.com/project-saerom/voicegrape.git
+git clone https://github.com/jsbang01357/voicegrape.git
 cd voicegrape
 
 # 가상환경 생성 및 활성화
