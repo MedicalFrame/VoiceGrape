@@ -334,8 +334,8 @@ with st.sidebar:
     
     menu = st.session_state.menu
 
-    st.caption("© 2026 Saerom")
-    st.caption("[brunch.co.kr/@project-saerom](https://brunch.co.kr/@project-saerom)")
+    st.caption("© 2026 jisong")
+    st.caption("jsbang01357@gmail.com")
 
 if (st.session_state.logged_in or st.session_state.guest_mode) and menu == "음성 분석":
     st.header("🎙️ 음성 분석")
